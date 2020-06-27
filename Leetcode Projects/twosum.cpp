@@ -1,3 +1,7 @@
+#include <vector>
+
+using std::vector;
+
 class Solution {
     public:
         vector<int> twoSum(vector<int>& nums, int target) {
@@ -13,4 +17,8 @@ class Solution {
             }
             return sum;
         }
+};
+
+int main() {
+    return 0;
 }
